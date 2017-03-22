@@ -13,15 +13,6 @@ main,article,section,header,{
 	float: left;
 }
 
-h2{
-	font-family: 'Audiowide', cursive;
-	text-decoration: none;
-	font-size:1.8em;
-	letter-spacing: 0.4em;
-	font-weight:bold;
-	color: #000;
-	opacity: 0.8;
-}
 nav{
 	width: 100%;
 	height: 40px;
@@ -88,8 +79,8 @@ p {
 	font-size:1.3em;
 	letter-spacing: 0.2em;
 	font-weight:bold;
-	color: #000;
-	opacity: 0.6;
+	color:#AAAAAA;
+	opacity: 1;
 	
 }
 
@@ -101,64 +92,20 @@ p {
 	position: relative;
 	word-wrap:break-word;
 }
-figure figcaption div h1 {
-	color: #fff;
-}
-figure figcaption div p{
-	color: #fff;
-}
-.slide{
-	opacity: 0.8;
-
-}
-
-.slide:hover{
-	opacity: 1;
-}
-#black {
-	width: 1360px;
-	height: 850px;
-	position: relative;
-	z-index: 10;
-	background-color: rgb(80,80,80);
-	opacity: 0.7;
-}
-.viewbox {
-	font-family: 'Audiowide', cursive;
-	text-decoration: none;
-	font-size:1.8em;
-	width: 100px;
-	height: 80px;
-	text-align: center;
-	line-height: 100px;
-	color: #fff;
-	border: #A498BD solid;
-	border-width: 0px 0px 1px;  
- text-align: center}
-
 .mySlides {
 	display:none;
 	z-index:1;
 	width:100%;
 	position: relative;
 	margin:auto;
-	
 }
 
-h1 {margin: 0;color:#fff;}
+h1 {margin: 0;color:#DDDDDD;}
 
 #ii,#iii,#iiii,#iiiii{
-	color:#fff;opacity: 1;
+	color:#DDDDDD;opacity: 1;
 }
-body { padding: 0; }
-
-a:link {color:#FFF:;}
-a:visited {color:#fff;}
-a:hover {color:#FFF;} 
-a:active {color:#FFF;} 
-
-
-.FineItems{
+.FineItems {
 	font-family: 'Audiowide', cursive;
 	text-align: center;
 	line-height: 249px;
@@ -166,23 +113,7 @@ a:active {color:#FFF;}
 	background-color:#fff;
   	opacity: 1;
   	text-shadow:3px 3px 3px #cccccc;
-  	
  }
-iframe{
-  	width: 100%;
-  	height: 100%;
-}
-video{
-	position:fixed; z-index: -100;
-  	width: 120%;
-}
-.ooop{
-	z-index: -99;
-  	width: 100%;
-  	height: 100%;
-	margin: 0;
-}
-
 #Declare{
 	text-align: center;
 	width: 100%;
@@ -191,8 +122,4 @@ video{
 	color: #fff;
 	line-height: 90px;
 	}
-.KeyboardVideo{
-	width: 100%;
-	height: 100%;
-}
 
